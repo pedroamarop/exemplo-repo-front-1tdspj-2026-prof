@@ -1,3 +1,20 @@
+/* 
+    
+    margin : 0 0 0 0 - aplica todos os lados
+    margin : 0 0 0 - aplica ao top bottom e right
+    margin : 0 0 - aplica ao top bottom e todos os lados
+    margin : 0  - aplica a todos os lados
+
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 /*
 Olá! Sua tarefa é preparar a base do nosso projeto.
 
@@ -13,6 +30,8 @@ Requisitos:
 
 Dica: Lembre-se que o font-size: 62.5% fará com que 1rem valha 10px! */
 
-h1 {
-    color: red;
+#container {
+    background-color: #f2e5f2;
+    margin: 0 auto;
+    width: 70%;
 }
