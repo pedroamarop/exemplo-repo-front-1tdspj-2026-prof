@@ -4,5 +4,10 @@
     color: #fff;
     background-color: var(--bg-dark-med);
     width: 100%;
-    height: 5%;
+    height: 5%;   
+}
+@media (orientation: portrait){
+    .cabecalho{
+        background-color: red
+    }
 }
